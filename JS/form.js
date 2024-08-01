@@ -27,24 +27,31 @@ $(document).ready(function () {
         });
         
         $("form").submit((e) => {
-          e.preventDefault();
-          if ($(".btn-submit").text() === "Update") {
+            e.preventDefault();
             const user_id = $(".btn-submit").attr("id");
             const updatedData = createUser();
-            console.log("updatedData", updatedData);
             updateEmployee(user_id, updatedData);
             window.location.href = "/index.html";
-          } else {
-              addEmployee();
-          }
-        });
-        $("#btn-cancel").click(() => {
-          window.location.href = "/index.html";
-        });
-        $("#btn-reset").click(() => {
-          window.location.reload();
         });
     }
+    else {
+        $("form").submit((e) => {
+            e.preventDefault();
+            addEmployee();
+        });
+    }
+    $("#btn-cancel").click(() => {
+        window.location.href = "./index.html";
+    });
+    $("#btn-reset").click(() => {
+        $("#name").val('');
+        $('input[name="profile"]').prop('checked', false);
+        $('input[name="gender"]').prop('checked', false);
+        $('input[name="department"]').prop('checked', false);
+        $("#salary").val('');
+        $("#start-date").val('');
+        $("#notes").val('');
+    });
 });
 
 function createUser() {
