@@ -9,9 +9,9 @@
         "finance",
         "engineer"
       ],
-      "salary": "40,000",
+      "salary": "70,000",
       "start_date": "2024-07-01",
-      "notes": "ykwim"
+      "notes": "mitran da gangster scene, ykwim"
     },
     {
       "id": "bc76",
@@ -87,6 +87,70 @@
       "salary": "40,000",
       "start_date": "2020-06-11",
       "notes": "yo nigga"
+    },
+    {
+      "id": "bb5a",
+      "name": "Hardik Jain",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "finance",
+        "engineer"
+      ],
+      "salary": "40,000",
+      "start_date": "2024-07-01",
+      "notes": "ykwim"
+    },
+    {
+      "id": "6eef",
+      "name": "detective decker",
+      "profileImage": "western-women",
+      "gender": "female",
+      "department": [
+        "others"
+      ],
+      "salary": "70,000",
+      "start_date": "2021-02-01",
+      "notes": "Lucifer"
+    },
+    {
+      "id": "fb80",
+      "name": "Hardik Jain",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "finance",
+        "engineer"
+      ],
+      "salary": "70,000",
+      "start_date": "2024-07-01",
+      "notes": "mitran da gangster scene, ykwim"
+    },
+    {
+      "id": "22fe",
+      "name": "Hardik Jain",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "finance",
+        "engineer"
+      ],
+      "salary": "70,000",
+      "start_date": "2024-07-01",
+      "notes": "ykwim"
+    },
+    {
+      "id": "463b",
+      "name": "Hardik Jain",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "finance",
+        "engineer"
+      ],
+      "salary": "40,000",
+      "start_date": "2024-07-01",
+      "notes": "ykwim"
     }
   ]
 }
