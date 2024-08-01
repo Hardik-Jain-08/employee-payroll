@@ -28,17 +28,6 @@ function createUser() {
 }
 
 
-function getEmployeeList(){
-    $.ajax({
-        type:"GET",
-        url:"http://localhost:3000/users",
-        success:function(res){
-            console.log(res);
-        },
-        error:function(err){
-            console.log("error msg : ",err)
-        }
-})};
 
 function addEmployee(){
     console.log("addEmployee called");
@@ -57,30 +46,6 @@ function addEmployee(){
     })
 };
 
-function deleteEmployee(){
-    $.ajax({
-        type:"DELETE",
-        url:"http://localhost:3000/users",
-        success:function(res){
-            console.log(res);
-        },
-        error:function(err){
-            console.log("error msg : ",err)
-        }
-})};
-
-function updateEmployee(){
-    $.ajax({
-        type:"PUT",
-        url:"http://localhost:3000/users",
-        data: createUser(),
-        success:function(res){
-            console.log(res);
-        },
-        error:function(err){
-            console.log("error msg : ",err)
-        }
-})};
 $(function() {
     $('form').submit((e)=>{
         e.preventDefault();

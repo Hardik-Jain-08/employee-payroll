@@ -43,26 +43,13 @@
       "name": "Maze Mazikeen",
       "profileImage": "asian-women",
       "gender": "female",
-      "department": ["sales","others"],
+      "department": [
+        "sales",
+        "others"
+      ],
       "salary": "60,000",
       "start_date": "2022-11-22",
       "notes": "demon"
-    },
-    {
-      "id": "5d4b",
-      "name": "Ritika Negi",
-      "profileImage": "asian-women",
-      "gender": "female",
-      "department": [
-        "Hr",
-        "sales",
-        "finance",
-        "engineer",
-        "others"
-      ],
-      "salary": "50,000",
-      "start_date": "2024-05-30",
-      "notes": "just another note"
     },
     {
       "id": "e489",
@@ -87,6 +74,19 @@
       "salary": "50,000",
       "start_date": "2024-05-30",
       "notes": "Life is tough!!"
+    },
+    {
+      "id": "4f5e",
+      "name": "devansh gautam",
+      "profileImage": "western-man",
+      "gender": "male",
+      "department": [
+        "sales",
+        "engineer"
+      ],
+      "salary": "40,000",
+      "start_date": "2020-06-11",
+      "notes": "yo nigga"
     }
   ]
 }
