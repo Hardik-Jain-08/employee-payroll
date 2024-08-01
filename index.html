@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script href="./js/index.js"></script>
     <meta charset="UTF-8" />
-    <script href="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/styles.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +12,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
+      />
     <title>Employee Payroll</title>
   </head>
   <body>
@@ -58,7 +58,7 @@
               style="width: 1.5rem; margin: 0.5rem 1.25rem"
             /></div
           >
-          <button class="Roboto" style="margin-left: 10px; background-color: #82A70C; color: white; display: flex; align-items: center; gap: 5px; padding: 2px 8px; border: none; border-radius: 5px;" onclick="window.location.href='templates/employeeForm.html'"><span style="font-size: x-large;">+</span> <span style="font-size: large;">Add User</span></button></span
+          <button class="Roboto" style="margin-left: 10px; background-color: #82A70C; color: white; display: flex; align-items: center; gap: 5px; padding: 2px 8px; border: none; border-radius: 5px;" onclick="window.location.href='/form.html'"><span style="font-size: x-large;">+</span> <span style="font-size: large;">Add User</span></button></span
         >
       </div>
       <div>
@@ -75,105 +75,21 @@
             </tr>
           </thead>
           <tbody id="tableData">
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -1.png" style="width: 36px;" alt=""></th>
-              <td>Amarpa Shashanka Keerthi Kumar</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -2.png" style="width: 36px;" alt=""></th>
-              <td>Mohammad Salman Iqbal Shaikh</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -3.png" style="width: 36px;" alt=""></th>
-              <td>Bubere Qais Mohammad Muzaffar</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -4.png" style="width: 36px;" alt=""></th>
-              <td>Amarpa Shashanka Keerthi Kumar</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -5.png" style="width: 36px;" alt=""></th>
-              <td>Mohammad Salman Iqbal Shaikh</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -7.png" style="width: 36px;" alt=""></th>
-              <td>Bubere Qais Mohammad Muzaffar</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse -8.png" style="width: 36px;" alt=""></th>
-              <td>Amarpa Shashanka Keerthi Kumar</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row"><img src="./Assets/Ellipse 1.png" style="width: 36px;" alt=""></th>
-              <td>Mohammad Salman Iqbal Shaikh</td>
-              <td>Female</td>
-              <td><span class="departments"> Sales </span> <span class="departments">HR</span> <span class="departments">Finance</span></td>
-              <td>₹ 10,000</td>
-              <td>29 Oct 2019</td>
-              <td style="display: flex; gap: 1rem; font-size: large;">
-                <div><img src="./Assets/delete-black-18dp.svg" style="width: 24px;" alt=""></div>
-                <div><img src="./Assets/create-black-18dp.svg" style="width: 24px;" alt=""></div>
-              </td>
-            </tr>
+           
           </tbody>
         </table>
       </div>
     </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

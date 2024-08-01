@@ -1,6 +1,92 @@
 {
-    "users": [
-      { "id": 1, "name": "John Doe", "email": "john@example.com" },
-      { "id": 2, "name": "Jane Doe", "email": "jane@example.com" }
-    ]
-  }
+  "users": [
+    {
+      "id": "9aca",
+      "name": "Hardik Jain",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "finance",
+        "engineer"
+      ],
+      "salary": "40,000",
+      "start_date": "2024-07-01",
+      "notes": "ykwim"
+    },
+    {
+      "id": "bc76",
+      "name": "Abhishek Gupta",
+      "profileImage": "asian-man",
+      "gender": "male",
+      "department": [
+        "sales"
+      ],
+      "salary": "30,000",
+      "start_date": "2024-07-01",
+      "notes": "Kumar is missing"
+    },
+    {
+      "id": "29a4",
+      "name": "detective decker",
+      "profileImage": "western-women",
+      "gender": "female",
+      "department": [
+        "Hr",
+        "others"
+      ],
+      "salary": "70,000",
+      "start_date": "2021-02-01",
+      "notes": "Lucifer"
+    },
+    {
+      "id": "0b4f",
+      "name": "Maze Mazikeen",
+      "profileImage": "asian-women",
+      "gender": "female",
+      "department": ["sales","others"],
+      "salary": "60,000",
+      "start_date": "2022-11-22",
+      "notes": "demon"
+    },
+    {
+      "id": "5d4b",
+      "name": "Ritika Negi",
+      "profileImage": "asian-women",
+      "gender": "female",
+      "department": [
+        "Hr",
+        "sales",
+        "finance",
+        "engineer",
+        "others"
+      ],
+      "salary": "50,000",
+      "start_date": "2024-05-30",
+      "notes": "just another note"
+    },
+    {
+      "id": "e489",
+      "name": "bhupendra jogi",
+      "profileImage": "western-man",
+      "gender": "male",
+      "department": [
+        "sales"
+      ],
+      "salary": "20,000",
+      "start_date": "2024-07-01",
+      "notes": "Bhupendra Jogi"
+    },
+    {
+      "id": "d2b0",
+      "name": "ishu gupta",
+      "profileImage": "western-man",
+      "gender": "male",
+      "department": [
+        "engineer"
+      ],
+      "salary": "50,000",
+      "start_date": "2024-05-30",
+      "notes": "Life is tough!!"
+    }
+  ]
+}
