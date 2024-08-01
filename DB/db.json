@@ -54,7 +54,7 @@
     {
       "id": "e489",
       "name": "bhupendra jogi",
-      "profileImage": "western-man",
+      "profileImage": "asian-man",
       "gender": "male",
       "department": [
         "sales"
@@ -65,13 +65,13 @@
     },
     {
       "id": "d2b0",
-      "name": "ishu gupta",
+      "name": "Ishu Gupta",
       "profileImage": "western-man",
       "gender": "male",
       "department": [
         "engineer"
       ],
-      "salary": "50,000",
+      "salary": "10,000",
       "start_date": "2024-05-30",
       "notes": "Life is tough!!"
     },
@@ -87,70 +87,6 @@
       "salary": "40,000",
       "start_date": "2020-06-11",
       "notes": "yo nigga"
-    },
-    {
-      "id": "bb5a",
-      "name": "Hardik Jain",
-      "profileImage": "asian-man",
-      "gender": "male",
-      "department": [
-        "finance",
-        "engineer"
-      ],
-      "salary": "40,000",
-      "start_date": "2024-07-01",
-      "notes": "ykwim"
-    },
-    {
-      "id": "6eef",
-      "name": "detective decker",
-      "profileImage": "western-women",
-      "gender": "female",
-      "department": [
-        "others"
-      ],
-      "salary": "70,000",
-      "start_date": "2021-02-01",
-      "notes": "Lucifer"
-    },
-    {
-      "id": "fb80",
-      "name": "Hardik Jain",
-      "profileImage": "asian-man",
-      "gender": "male",
-      "department": [
-        "finance",
-        "engineer"
-      ],
-      "salary": "70,000",
-      "start_date": "2024-07-01",
-      "notes": "mitran da gangster scene, ykwim"
-    },
-    {
-      "id": "22fe",
-      "name": "Hardik Jain",
-      "profileImage": "asian-man",
-      "gender": "male",
-      "department": [
-        "finance",
-        "engineer"
-      ],
-      "salary": "70,000",
-      "start_date": "2024-07-01",
-      "notes": "ykwim"
-    },
-    {
-      "id": "463b",
-      "name": "Hardik Jain",
-      "profileImage": "asian-man",
-      "gender": "male",
-      "department": [
-        "finance",
-        "engineer"
-      ],
-      "salary": "40,000",
-      "start_date": "2024-07-01",
-      "notes": "ykwim"
     }
   ]
 }
