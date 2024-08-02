@@ -11,7 +11,22 @@ $(document).ready(function () {
             const user_id = $(this).attr('id');
             window.location.href = `./form.html?user_id=${user_id}`;
         });
-
+        $('#search').on('click', function () {
+            $('#search-input').css('display', 'block');
+            $('#search-input').on('keyup', function () {
+                const searchValue = $(this).val().toLowerCase();
+                const table = $('#tableData');
+                table.find('tr').each(function(index, row) {
+                    if (index >= 0) {
+                        const allCells = $(row).find('td');
+                        if (allCells.length > 0) {
+                            const found = $(row).text().toLowerCase().indexOf(searchValue) > -1;
+                            $(row).css('display', found ? 'table-row' : 'none');
+                        }
+                    }
+                });
+            });
+        });
     }).catch(err => {
         console.log("Error fetching users: ", err);
     });

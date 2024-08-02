@@ -60,6 +60,9 @@ thead>tr>th:first-child {
 
 .flex {
     display: flex;
+}
+
+.justify-between {
     justify-content: space-between;
 }
 
@@ -78,4 +81,8 @@ td:nth-child(2) {
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
