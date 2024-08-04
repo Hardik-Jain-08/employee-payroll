@@ -36,7 +36,8 @@ This project is an Employee Payroll System designed to manage employee payroll i
 ## Usage
 
 1. Start by using Live Server.
-2. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+2. Run the json server to get your db running by typing the command. `npx json-server ./DB/db.json` in your terminal.
+3. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
 ## Design
 
